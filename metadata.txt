@@ -1,0 +1,20 @@
+[general]
+name=Sort Group Layers
+qgisMinimumVersion=3.10
+qgisMaximumVersion=4.99
+supportsQt6=True
+description=Adds "Sort group layers ..." to the layer tree group context menu
+about=Adds a "Sort group layers ..." entry to the right-click menu of layer groups. Layers in one or several selected groups can be sorted by geometry type (points, lines, polygons, other) and by layer name (natural, case-insensitive). Sub groups can be placed at the top or bottom (sorted alphabetically), and sorting can optionally be applied recursively.
+version=1.0.1
+author=Lars Nielsen, LIFA Digital and Claude AI
+email=lars.nielsen@lifadigital.dk
+
+tracker=https://github.com/lifalin2016/qgis-sort_group_layers/issues
+repository=https://github.com/lifalin2016/qgis-sort_group_layers
+homepage=https://www.lifadigital.dk
+
+tags=layers,layer tree,groups,sort,legend
+category=Plugins
+icon=icon.svg
+experimental=False
+deprecated=False
